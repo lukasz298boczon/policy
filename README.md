@@ -13,7 +13,7 @@ The policy describes the current app, including local-only storage, 14/90-date r
 
 ## Publish with GitHub Pages
 
-Deployment is not enabled yet. The local GitHub accounts available during preparation did not have write/admin access to `lukasz298boczon/policy`.
+The publishing source is the `feat/calbalance-privacy` branch, repository root. The first GitHub CLI accounts checked had read-only access, but the existing Git HTTPS credential authenticates the repository owner and supports publishing. Credentials are not stored in this repository.
 
 After authenticating as an account with access:
 
@@ -23,13 +23,13 @@ After authenticating as an account with access:
 4. Choose **feat/calbalance-privacy**, directory **/ (root)**, and save.
 5. Wait for a successful Pages deployment and open the published URL without signing in.
 
-Expected project URL after publication:
+GitHub Pages project URL:
 
 ```text
 https://lukasz298boczon.github.io/policy/
 ```
 
-This address is planned, not proof of a deployment. Copy it into Garmin's Privacy Policy field only after it actually serves the page publicly.
+Use this URL in Garmin's Privacy Policy field after the Pages deployment succeeds and the page is publicly reachable. The repository URL itself is not the policy-page URL.
 
 ## Local preview
 
